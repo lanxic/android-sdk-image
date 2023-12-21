@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ubuntu:23.10
+FROM --platform=linux/amd64 ubuntu:22.04
 
 LABEL maintainer="Alex Manroe <lanxic[at]gmail.com>"
 
