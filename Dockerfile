@@ -7,7 +7,7 @@ LABEL maintainer="Alex Manroe <lanxic[at]gmail.com>"
 ENV ANDROID_SDK_TOOLS_VERSION 10406996
 ENV ANDROID_SDK_TOOLS_CHECKSUM 8919e8752979db73d8321e9babe2caedcc393750817c1a5f56c128ec442fb540
 
-ENV GRADLE_VERSION 8.2
+ENV GRADLE_VERSION 7.5.1
 
 ENV ANDROID_HOME "/opt/android-sdk-linux"
 ENV ANDROID_SDK_ROOT $ANDROID_HOME
@@ -21,8 +21,8 @@ RUN apt-get -qq update \
     && apt-get -qqy --no-install-recommends install \
     apt-utils \
     build-essential \
-    openjdk-22-jdk \
-    openjdk-22-jre-headless \
+    openjdk-18-jdk \
+    openjdk-18-jre-headless \
     software-properties-common \
     libssl-dev \
     libffi-dev \
